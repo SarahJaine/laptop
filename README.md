@@ -35,7 +35,7 @@ script, respectively:
 curl --remote-name https://raw.githubusercontent.com/SarahJaine/laptop/master/mac
 bash mac 2>&1 | tee ~/laptop.log
 ```
-The [script](https://github.com/istrategylabs/laptop/blob/master/mac) itself is
+The [script](https://github.com/SarahJaine/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 

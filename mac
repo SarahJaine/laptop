@@ -102,7 +102,7 @@ brew update
 brew tap 'homebrew/bundle'
 
 curl_to_file "$HOME/Brewfile" \
-  "https://raw.githubusercontent.com/istrategylabs/laptop/master/Brewfile"
+  "https://raw.githubusercontent.com/SarahJaine/laptop/master/Brewfile"
 
 brew bundle --file="$HOME/Brewfile"
 
@@ -178,7 +178,7 @@ echo "process.env.PATH = ['/usr/local/bin/', process.env.PATH].join(':')" \
 #
 
 curl_to_file "$HOME/.editorconfig" \
-  "https://raw.githubusercontent.com/istrategylabs/laptop/master/config/editorconfig"
+  "https://raw.githubusercontent.com/SarahJaine/laptop/master/config/editorconfig"
 
 curl_to_file "$HOME/.vimrc" \
-  "https://raw.githubusercontent.com/istrategylabs/laptop/master/config/vimrc"
+  "https://raw.githubusercontent.com/SarahJaine/laptop/master/config/vimrc"
