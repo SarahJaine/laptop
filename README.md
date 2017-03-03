@@ -1,6 +1,5 @@
 Laptop
 ======
-[![Build Status](https://travis-ci.org/istrategylabs/laptop.svg)](https://travis-ci.org/istrategylabs/laptop)
 
 Laptop is a script to set up an OS X computer for web development.
 
@@ -33,7 +32,7 @@ time, then press `return` after each one to download and execute the
 script, respectively:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/istrategylabs/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/SarahJaine/laptop/master/mac
 bash mac 2>&1 | tee ~/laptop.log
 ```
 The [script](https://github.com/istrategylabs/laptop/blob/master/mac) itself is
@@ -52,10 +51,7 @@ Debugging
 ---------
 
 Your last Laptop run will be saved to `~/laptop.log`. Read through it to see if
-you can debug the issue yourself. If not, copy the lines where the script
-failed into a [new GitHub
-Issue](https://github.com/istrategylabs/laptop/issues/new) for us. Or, attach the
-whole log file as an attachment.
+you can debug the issue yourself.
 
 What it sets up
 ---------------
@@ -156,13 +152,13 @@ Laptop functions such as `fancy_echo`, `brew_install_or_upgrade`,
 cd ~
 
 # Download the sample file to your computer
-curl --remote-name https://raw.githubusercontent.com/istrategylabs/laptop/master/.laptop.local
+curl --remote-name https://raw.githubusercontent.com/SarahJaine/laptop/master/.laptop.local
 ```
 
 Credits
 -------
 
-This [ISL](https://isl.co) project is based on [18F's laptop project](https://github.com/18f/laptop), which was originally based on [thoughtbot's laptop project](https://github.com/thoughtbot/laptop).
+This project is based on [ISL's laptop project](https://github.com/istrategylabs/laptop), which was based on [18F's laptop project](https://github.com/18f/laptop), which was originally based on [thoughtbot's laptop project](https://github.com/thoughtbot/laptop).
 
 ### Public domain
 
